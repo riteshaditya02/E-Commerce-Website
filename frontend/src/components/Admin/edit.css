@@ -1,0 +1,97 @@
+.CartContainer{
+    float: left;
+    margin-top: 75px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 30px;
+    box-shadow: 10px 10px 10px 10px #33104715 ;
+    padding: 15px;
+    border-radius: 25px;
+    width: 360px;
+    height: 460px;
+    background: #777aa1;
+    }
+.ItemName{
+    font-weight: bold;
+    font-size: 25px;
+    color: #04000a;
+    padding: 10px;
+
+}
+.ProductImage{
+   width: 100%;
+   
+}
+.ProductImage img{
+    width:17rem;
+    height:15rem;
+    border-radius: 30px;
+}
+.ProductPrice{
+    font-weight:bold;
+    font-size: 20px;
+    width: 50%;
+    float: left;
+    color: #04000a;
+    padding: 30px;
+
+    /* margin-top: 90px;
+    margin-left: 1px; */
+}
+.Source{
+    align-items: center;
+    appearance: none;
+    background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #243bbe 100%);
+    border: 0;
+    border-radius: 6px;
+    box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: rgb(3, 1, 24);
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "JetBrains Mono",monospace;
+    height: 48px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .15s,transform .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow,transform;
+    font-size: 18px;
+    margin-right:8%;
+    margin-bottom: 12px;
+}
+.btn{
+    text-align: center;
+    width: 100%;
+    color: rgb(12, 1, 29);
+}
+
+.Source:focus {
+    box-shadow: #1428bb 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #1022ac 0 -3px 0 inset;
+  }
+
+  .Source:hover {
+    box-shadow: rgba(53, 9, 148, 0.4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+    transform: translateY(-2px);
+  }
+
+  .Source:active {
+    box-shadow: #0b1a8f 0 3px 7px inset;
+    transform: translateY(2px);
+  }
+.ProductRating{
+    color: rgb(4, 1, 15);
+    font-size:18px ;
+    font-style: bold;
+
+}

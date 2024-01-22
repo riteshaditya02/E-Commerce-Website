@@ -1,0 +1,103 @@
+*{
+    align-content: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.form-container{
+   
+    width: 40%;
+    border-radius: 10px ;
+    background-color: #bfbbd4;
+    padding-top: 80px;
+    
+    margin: 20px;
+    box-shadow: 10px 10px 10px 5px #291a5f;
+    transition-duration: 0.5s;
+    margin-bottom: 286px;
+}
+
+.form-input{
+   
+    width: 50%;
+    padding: 10px;
+    float: left;
+    border: none;
+
+}
+.clearfix{
+    clear: both;
+}
+.title{
+    font-weight: bold;
+    padding: 10px;
+    /* border-radius: 5px; */
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    background:#042e66;
+    border-radius: 15px;
+}
+
+input[type='text']{
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: none;
+    height: 40px;
+    border-radius: 10px;
+    padding-left: 10px;
+    /* border-radius: 5px; */
+}
+
+.btn-add-product{
+    font-style: bold;
+    font-size: 20px;
+    align-items: center;
+    appearance: none;
+    background-image: radial-gradient(100% 100% at 100% 0, #3c0b69 0, #243bbe 100%);
+    border: 0;
+    border-radius: 6px;
+    box-shadow: rgba(42, 6, 121, 0.4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: rgb(33, 21, 77);
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "JetBrains Mono",monospace;
+    height: 48px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .15s,transform .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow,transform;
+    font-size: 18px;
+    margin-right:8%;
+   
+}
+
+
+.btn-add-product:focus {
+    box-shadow: #1428bb 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #1022ac 0 -3px 0 inset;
+  }
+
+  .btn-add-product:hover {
+    box-shadow: rgba(53, 9, 148, 0.4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+    transform: translateY(-2px);
+  }
+
+  .btn-add-product:active {
+    box-shadow: #0b1a8f 0 3px 7px inset;
+    transform: translateY(2px);
+  }
+h1{
+    margin:10px
+}
